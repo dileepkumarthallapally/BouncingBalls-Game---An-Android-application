@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+   
+    android:background="@drawable/ball" >
+
+    <TextView
+        android:id="@+id/txt1"
+        
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Bouncing ball..." 
+        android:textSize="35dp"
+        android:textColor="#FF00FF"
+        
+        />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_marginTop="60dp"
+            android:text="Go.."
+        android:textSize="35dp" 
+         android:textColor="#FF00FF"
+         android:layout_marginLeft="180dp"
+         android:textStyle="bold"
+        />
+             
+</RelativeLayout>
